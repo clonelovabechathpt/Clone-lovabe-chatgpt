@@ -94,7 +94,14 @@ export default function Dashboard({ session }) {
   return (
     <section className="dash">
       <p className="dash-eyebrow">Dashboard</p>
-      <h1 className="dash-title">My uploads</h1>
+      <div className="dash-title-row">
+        <h1 className="dash-title">My uploads</h1>
+        {!loading && (
+          <span className="dash-count-badge">
+            {items.length} {items.length === 1 ? 'entry' : 'entries'}
+          </span>
+        )}
+      </div>
       <p className="dash-sub">Add, view, and remove your own entries — synced to Supabase.</p>
 
       <form className="dash-form" onSubmit={handleAdd}>

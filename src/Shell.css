@@ -1,0 +1,73 @@
+.shell {
+  min-height: 100vh;
+}
+
+.shell-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.1rem 1.75rem;
+  border-bottom: 1px solid var(--panel-line);
+  flex-wrap: wrap;
+}
+
+.shell-mark {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--paper-dim);
+  margin-right: 0.5rem;
+}
+.shell-mark-num { color: var(--amber); font-weight: 600; }
+
+.shell-tabs {
+  display: flex;
+  gap: 0.25rem;
+  flex: 1;
+}
+
+.shell-tab {
+  background: none;
+  border: none;
+  color: var(--paper-dim);
+  font-size: 0.9rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.shell-tab:hover { color: var(--paper); }
+.shell-tab--active {
+  color: var(--ink);
+  background: var(--amber);
+}
+.shell-tab--active:hover { color: var(--ink); }
+
+.shell-account {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.shell-email {
+  font-size: 0.82rem;
+  color: var(--paper-dim);
+}
+
+.shell-logout {
+  background: none;
+  border: 1px solid var(--panel-line);
+  color: var(--paper);
+  padding: 0.4rem 0.8rem;
+  border-radius: 3px;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+.shell-logout:hover {
+  border-color: var(--coral);
+  color: var(--coral);
+}
+
+.shell-main {
+  padding: 2.5rem 1.75rem 4rem;
+  max-width: 760px;
+  margin: 0 auto;
+}

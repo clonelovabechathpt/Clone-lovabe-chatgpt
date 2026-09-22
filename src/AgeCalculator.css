@@ -1,0 +1,80 @@
+.age-calc-eyebrow {
+  font-size: 0.8rem;
+  color: var(--amber);
+  margin: 0 0 0.4rem;
+}
+
+.age-calc-title {
+  font-family: var(--font-display);
+  font-size: 2.1rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem;
+}
+
+.age-calc-sub {
+  color: var(--paper-dim);
+  margin: 0 0 2rem;
+  max-width: 34ch;
+}
+
+.age-calc-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+  color: var(--paper-dim);
+  max-width: 260px;
+}
+
+.age-calc-field input {
+  background: var(--panel);
+  border: 1px solid var(--panel-line);
+  border-radius: 3px;
+  padding: 0.65rem 0.75rem;
+  color: var(--paper);
+  font-size: 0.95rem;
+  color-scheme: dark;
+}
+
+.age-calc-error {
+  color: var(--coral);
+  font-size: 0.85rem;
+  margin-top: 0.9rem;
+}
+
+.age-result {
+  margin-top: 2.75rem;
+  padding-top: 2.25rem;
+  border-top: 1px solid var(--panel-line);
+}
+
+.age-result-main {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.age-result-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.age-result-num {
+  font-family: var(--font-display);
+  font-size: 3.4rem;
+  line-height: 1;
+  color: var(--amber);
+  font-variant-numeric: tabular-nums;
+}
+
+.age-result-label {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--paper-dim);
+}
+
+.age-result-total {
+  margin: 1.75rem 0 0;
+  font-size: 0.85rem;
+  color: var(--paper-dim);
+}
